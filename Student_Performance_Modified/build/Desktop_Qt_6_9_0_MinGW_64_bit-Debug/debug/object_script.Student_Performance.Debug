@@ -1,0 +1,13 @@
+debug/individualstudent.o
+debug/login_main.o
+debug/main.o
+debug/mainwindow.o
+debug/new_student.o
+debug/performance_chart.o
+debug/rank.o
+debug/moc_individualstudent.o
+debug/moc_login_main.o
+debug/moc_mainwindow.o
+debug/moc_new_student.o
+debug/moc_performance_chart.o
+debug/moc_rank.o

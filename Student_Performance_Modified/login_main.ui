@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login_main</class>
+ <widget class="QMainWindow" name="Login_main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="layoutDirection">
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="newStudent_btn">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+QPushButton:hover {
+    background-color: #2980b9;
+}
+QPushButton:pressed {
+    background-color: #1c5980;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>New Student</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="PC_btn">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #82E0AA;
+    color: black;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #58D68D;
+}
+QPushButton:pressed {
+    background-color: #28B463;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Performance Chart</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="modify_btn">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #A569BD;    /* soft lavender-purple */
+    color: black;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: #884EA0;    /* deeper violet on hover */
+}
+
+QPushButton:pressed {
+    background-color: #76448A;    /* dark plum when pressed */
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Modify</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="individual_btn">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #F9E79F;
+    color: black;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #F7DC6F;
+}
+QPushButton:pressed {
+    background-color: #F4D03F;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Individual</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #F5B7B1;
+    color: black;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #EC7063;
+}
+QPushButton:pressed {
+    background-color: #CB4335;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Rank</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Logout_btn">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #D7BDE2;
+    color: black;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #AF7AC5;
+}
+QPushButton:pressed {
+    background-color: #884EA0;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>LogOut</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Students Detail</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QTableView" name="studentDetailsTable"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

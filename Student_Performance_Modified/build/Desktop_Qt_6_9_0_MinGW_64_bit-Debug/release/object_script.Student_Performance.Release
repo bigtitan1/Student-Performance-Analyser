@@ -1,0 +1,13 @@
+release/individualstudent.o
+release/login_main.o
+release/main.o
+release/mainwindow.o
+release/new_student.o
+release/performance_chart.o
+release/rank.o
+release/moc_individualstudent.o
+release/moc_login_main.o
+release/moc_mainwindow.o
+release/moc_new_student.o
+release/moc_performance_chart.o
+release/moc_rank.o
